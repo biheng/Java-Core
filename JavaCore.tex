@@ -1,0 +1,34 @@
+% XeLaTex源码模板
+\documentclass[12pt, a4paper]{article}
+\usepackage{xeCJK}
+\setCJKmainfont{WenQuanYi Micro Hei}
+\usepackage{graphicx}
+\parindent 2em   %段首缩进
+
+
+\begin{document}
+
+\title{\bf JavaCore~\LaTeX~}
+\author{Tqcenglish \\ \it tqcenglish@gmail.com}
+\date{\today}
+\maketitle
+%设置目录
+\tableofcontents
+\setcounter{tocdepth}{2}
+\newpage
+%设置摘要
+\begin{abstract}
+    关于Java核心技术的学习
+\end{abstract}
+%换页
+\newpage
+\section{泛型的意义}
+泛型比使用杂乱的Object变量进行强制转换更具有安全性和可读性。
+\subsection{为什么使用泛型}
+泛型程序设计（Generic programming)意味着编写的代码可以被很多不同类型的对象所重用。
+类型参数(type parameters)可以避免强制转换异常。泛型程序员需要预测出类未来可能有的所有用途。
+%设置原文照排
+\begin{verbatim}
+\end{verbatim}
+
+\end{document}
